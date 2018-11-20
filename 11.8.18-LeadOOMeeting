@@ -1,0 +1,41 @@
+BarcodeLookup API
+
+
+JSON Storage Firebase
+Object -> JSON
+JSON -> Object
+DB Structure
+Store (venueID)
+Name
+Location
+Product(product name from barcode lookup)
+Price
+Time
+Price Query
+1. FourSquare Query
+ll(latlng)
+catID: for places
+Radius
+Limit
+Returns list of grocery stores in x radius
+2. Firebase Query
+storeID
+itemName
+Returns prices for stores
+Price Store
+1. Barcode API Query
+Returns Name
+2. Take picture of price to get price
+3. FourSquare Query
+Get current Grocery store
+Returns storeID
+4. FB store, based on venue ID
+
+Groups
+Barcode Scanner + Price Scanner
+Firebase
+API calls
+Foursquare
+API calls
+UI Team
+

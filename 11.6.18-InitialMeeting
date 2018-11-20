@@ -1,0 +1,128 @@
+Initial Meeting Notes
+Date: Nov 6
+Present Members: Godwin, Thomas, Dhruv, Paul, Ryan
+Goal: Brainstorm use cases/functionality 
+
+Introductions
+Tech Used
+Github
+Work on feature branch
+Make pull request
+Pass code review
+Standard github flow
+CocoaPods
+SwiftyJSON
+Alamofire
+PromiseKit
+Autolayout pod
+DB
+Firebase
+API
+Foursquare
+Nutrition API
+OpenCV
+ML
+Keras
+Use Cases (GDoc)
+Scan barcode? via api-> get Name
+Pic of price
+Take picture of item
+Timeline
+Plan (Godwin, Thomas)
+Plan regular meeting time
+Time commitment
+2x 1.5 hour meetings
+What you need to catch up on before next meeting
+Github
+Make github account -> Email me your account name
+Register student developer: https://education.github.com/pack
+https://guides.github.com/activities/hello-world/
+https://guides.github.com/introduction/flow/
+Install XCode 10 (may need to update macOS to mojave): https://developer.apple.com/xcode/
+Install git (Your mac should have, but just in case): https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+Learn Swift: https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html
+iOS UI: Ray Wenderlich
+What leaders need to do before next meeting limited 
+mock flow
+Timeline
+teams
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+App Notes:
+Barcode:
+Scan barcode, via api-> get Name
+Pic of price (CV)
+
+Manual Input (fall back if picture and barcode method fails)
+
+Naming Convention:
+e.g Ribeye steak either USDA prime our choice
+Different products with similar names
+Solution: Group similar names into categories (hard to do)
+
+Deals/Price Changes:
+e.g. BOGO deal
+store: DB
+response: user
+
+Store in Database:
+Price
+Name of product
+Location
+Time + date
+Deals?
+End date
+Type
+Database response:
+Has better deal?
+where?
+Special deals? (i.e. BOGO)
+multiple deals
+normal + special offer?
+
+Data sources:
+User (crowdsourcing)
+Web Scraping (? maybe)
+
+
+Search:
+DB access with no input
+
+Incentivize Scanning:
+Scanning = Easiest method
+UI like snapchat (have camera active)
+
